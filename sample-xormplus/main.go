@@ -18,8 +18,8 @@ var engine *xorm.Engine
 
 func main() {
     var err error
-	//user:password@tcp(localhost:5555)/dbname?tls=skip-verify&autocommit=true
-    engine, err = xorm.NewEngine("mysql", "sa:lanshanTest@2018&26g@tcp(221.234.36.70:3307)/test1?charset=utf8")
+	
+    engine, err = xorm.NewEngine("mysql", "sa:lanshanTest@2018&26g@tcp(221.234.36.70:3307)/test1?charset=utf8mb4")
 	if err != nil {
 		println(err.Error())
 		return
