@@ -5,7 +5,7 @@ import (
     //"github.com/gogf/gf-demos/app/api/curd"
     //"github.com/gogf/gf-demos/app/api/user"
 	//"github.com/gogf/gf-demos/app/service/middleware"
-	"../api"
+	"sample-goframe/api"
     "github.com/gogf/gf/frame/g"
     "github.com/gogf/gf/net/ghttp"
 )
