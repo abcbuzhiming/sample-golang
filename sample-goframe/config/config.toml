@@ -21,7 +21,7 @@
 
 # 数据库连接
 [database]
-    link  = "mysql:root:12345678@tcp(127.0.0.1:3306)/test"
+    link  = "mysql:exec_user:xxxxxxxx@tcp(rm-uf66j02r845eiqhvrpo.mysql.rds.aliyuncs.com:13307)/test1"
     debug = true
     # 数据库日志对象配置
     [database.logger]
